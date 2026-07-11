@@ -1,0 +1,26 @@
+# Struct example in minus
+
+struct Point {
+    x: int,
+    y: int
+}
+
+int distance_squared(Point a, Point b) {
+    int dx = a.x - b.x;
+    int dy = a.y - b.y;
+    return dx * dx + dy * dy;
+}
+
+void main() {
+    Point p1;
+    Point p2;
+    
+    p1.x = 0;
+    p1.y = 0;
+    
+    p2.x = 3;
+    p2.y = 4;
+    
+    int dist_sq = distance_squared(p1, p2);
+    Print(dist_sq);
+}

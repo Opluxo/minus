@@ -1,0 +1,17 @@
+# Fibonacci sequence in minus
+
+int fibonacci(int n) {
+    if (n <= 1) {
+        return n;
+    }
+    return fibonacci(n - 1) + fibonacci(n - 2);
+}
+
+void main() {
+    Print("Fibonacci sequence:");
+    
+    for (int i = 0; i < 10; i = i + 1) {
+        int result = fibonacci(i);
+        Print(result);
+    }
+}

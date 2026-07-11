@@ -1,0 +1,18 @@
+[package]
+name = "minus-compiler"
+version = "0.1.0"
+edition = "2021"
+description = "Compiler for the minus programming language"
+
+[[bin]]
+name = "minus"
+path = "src/main.rs"
+
+[lib]
+name = "minus_compiler"
+path = "src/lib.rs"
+
+[dependencies]
+thiserror = "1.0"
+
+[dev-dependencies]
