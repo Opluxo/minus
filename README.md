@@ -191,4 +191,4 @@ See the [examples](examples/) directory:
 
 ## License
 
-MIT
+[AGPL-3.0](LICENSE)
