@@ -28,8 +28,8 @@ cargo build --release
 ## Usage
 
 ```bash
-# Compile a .minus file
-cargo run -- input.minus
+# Compile a .mi file
+cargo run -- input.mi
 
 # Execute code directly
 cargo run -- -e 'void main() { Print(42); }'
@@ -185,9 +185,9 @@ Result<int, string> divide(int a, int b) {
 
 See the [examples](examples/) directory:
 
-- [hello.minus](examples/hello.minus) - Hello World
-- [fibonacci.minus](examples/fibonacci.minus) - Fibonacci sequence
-- [struct_example.minus](examples/struct_example.minus) - Struct usage
+- [hello.mi](examples/hello.mi) - Hello World
+- [fibonacci.mi](examples/fibonacci.mi) - Fibonacci sequence
+- [struct_example.mi](examples/struct_example.mi) - Struct usage
 
 ## License
 
